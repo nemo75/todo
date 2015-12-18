@@ -1,0 +1,146 @@
+body
+{
+    background-color:#27ae60;
+}
+
+h1
+{
+    color:#2980b9;
+    text-align:center;
+    font-size:120px;
+    margin-bottom:0px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.postit
+{
+   width:400px;
+   height:auto;
+   margin-left:auto;
+   margin-right:auto;
+   box-shadow:0px 0px 60px;
+   background-color:#f1c40f;
+}
+
+.searchbar
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width:100%;
+    height:30px;
+    background-color:white;
+
+}
+
+::-webkit-input-placeholder { text-align:center; }
+::-moz-placeholder { text-align:center; } /* firefox 19+ */
+:-ms-input-placeholder { text-align:center; } /* ie */
+input:-moz-placeholder { text-align:center; }
+.tasklist
+{
+    height:auto;
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration:none;
+}
+
+.task
+{
+    margin:0;
+    width:100%;
+    height:50px;
+    display: table;
+    position:relative;
+    font-family:'Indie Flower';
+    font-size:23px;
+    text-shadow: 0 1px 0 #c0392b;
+    color:#d35400;
+}
+
+/*.tasklist .task
+{
+    height: 100%;
+    display: table-cell;
+   vertical-align: middle; 
+    
+    
+}*/
+
+button
+{
+   padding:auto;
+   margin-left:30px;
+   margin-right:15px;
+}
+
+#add{
+    display: inline-block;
+    height:20px;
+	width:55px;
+	background-color:#cc0000;
+	font-family:arial;
+	font-weight:bold;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	margin-top:2px;
+	
+	
+	
+}
+/*---------------------------------------------*/
+.checkbox {
+  position: relative;
+  top: -0.375rem;
+  margin: 0 1rem 0 0;
+  cursor: pointer;
+}
+
+.checkbox:before {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  content: "";
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid #f2f2f2;
+}
+
+.checkbox:checked:before {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+ height: .5rem;
+  border-color: #009688;
+  border-top-style: none;
+  border-right-style: none;
+}
+
+.checkbox:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.1rem;
+  height: 1.1rem;
+  background: #fff;
+  cursor: pointer;
+}
+.barration
+{
+     text-decoration : line-through;
+     opacity:0.6;
+     color:black;
+}
+
+.hide
+{
+    display:none;
+}
