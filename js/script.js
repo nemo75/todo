@@ -12,6 +12,11 @@ $(document).ready(function()
     {
         $(this).parent().toggleClass('barration');
     });
+
+    // La présence de code est-elle encore pertinente ?
+    // Si non, la supprimer. La bande passante est précieuse
+    // et nos utilisateurs n'aiment pas attendre 
+
      
       /*  $('.boutton:eq(0)').click(function()
         {
@@ -45,4 +50,7 @@ $(document).ready(function()
             $('.task').hide();
             $('.barration').show();
         });
+
+
+        // Pas de compteur :( ... #triste
 });
