@@ -12,27 +12,6 @@ $(document).ready(function()
     {
         $(this).parent().toggleClass('barration');
     });
-
-    // La présence de code est-elle encore pertinente ?
-    // Si non, la supprimer. La bande passante est précieuse
-    // et nos utilisateurs n'aiment pas attendre 
-
-     
-      /*  $('.boutton:eq(0)').click(function()
-        {
-            $('.task').removeClass('hide');
-        });
-        $('.boutton:eq(1)').click(function()
-        {
-            $('.barration').addClass('hide');
-            $('.task:not(.barration)').removeClass('hide');
-        });
-        $('.boutton:eq(2)').click(function()
-        {
-            $('.barration').removeClass('hide');
-            $('.task:not(.barration)').addClass('hide');
-        });*/
-     
         $('#all').on("click", function()
         {   
             $('.task').show();
@@ -50,7 +29,4 @@ $(document).ready(function()
             $('.task').hide();
             $('.barration').show();
         });
-
-
-        // Pas de compteur :( ... #triste
 });
